@@ -1,0 +1,58 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f3f4f6;
+}
+
+h1 {
+    text-align: center;
+}
+#btn {
+    background-color: chartreuse;
+    padding: 8px 20px;
+    cursor: pointer;
+    border: none;
+}
+
+table {
+    margin: auto;
+    border-spacing: 10px;
+}
+
+td {
+    vertical-align: middle;
+}
+form {
+    background-color: white;
+    width: 420px;
+    margin: 40px auto;
+    padding: 20px 30px;
+    border-radius: 10px;
+    
+    box-shadow: 0 4px 10px rgba(226, 47, 92, 0.15);
+}
+#btn{
+    background-color: chartreuse;
+    text-decoration-color: rgb(217, 220, 223);
+}
+
+
+input, select {
+    padding: 6px;
+    width: 220px;
+}
+
+
+input[type="radio"] {
+    width: auto;
+    margin-left: 10px;
+}
+
+/* submit button */
+.btn-center {
+    text-align: center;
+}
+
+#btn {
+    padding: 8px 20px;
+    cursor: pointer;
+}

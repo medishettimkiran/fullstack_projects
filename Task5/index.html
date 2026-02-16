@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment Simulation</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Payment Simulation</h1>
+
+        <div class="form">
+            <label>User:</label>
+            <select id="userSelect"></select>
+
+            <label>Merchant:</label>
+            <select id="merchantSelect"></select>
+
+            <label>Amount:</label>
+            <input type="number" id="amount" placeholder="Enter amount">
+
+            <button id="payBtn">Pay</button>
+        </div>
+
+        <div id="message"></div>
+
+        <h2>Balances</h2>
+        <div class="balances">
+            <div>
+                <h3>Users</h3>
+                <ul id="userBalances"></ul>
+            </div>
+            <div>
+                <h3>Merchants</h3>
+                <ul id="merchantBalances"></ul>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
