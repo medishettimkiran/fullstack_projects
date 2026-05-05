@@ -1,0 +1,10 @@
+# Git Commands Used
+
+git init
+git status
+git add .
+git commit -m "Initial commit"
+git log
+git remote add origin https://github.com/your-username/git-basic-java-project.git
+git branch -M main
+git push -u origin main
