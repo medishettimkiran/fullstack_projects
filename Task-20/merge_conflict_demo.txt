@@ -1,0 +1,9 @@
+Example Merge Conflict:
+
+<<<<<<< HEAD
+Welcome to Main Branch
+=======
+Welcome to Feature Branch
+>>>>>>> feature-login
+
+Conflict resolved by selecting the correct content manually.

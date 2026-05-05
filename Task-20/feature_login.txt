@@ -1,0 +1,6 @@
+Feature Branch: feature-login
+
+Added functionalities:
+- User Login
+- Authentication Module
+- Password Validation
